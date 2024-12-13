@@ -816,7 +816,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .work .viewall .btn:hover {
-  background: #007775;
+  background: linear-gradient(red, purple, blue);
   color: white;
   border: 2px solid white;
 }
@@ -958,9 +958,9 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #fff;
-  color: #007775;
-  border: 2px solid #007775;
+  background: linear-gradient(red, purple, blue);
+  color: #fff;
+  border: 2px solid #fff;
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
