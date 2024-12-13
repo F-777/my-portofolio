@@ -34,10 +34,10 @@ html::-webkit-scrollbar {
   width: 0.8rem;
 }
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: #dafffe;
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #007775;
 }
 
 /* pre loader start */
@@ -84,7 +84,7 @@ section {
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: #007775;
 }
 header .logo {
   font-size: 1.9rem;
@@ -269,7 +269,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #007775;
+  background: linear-gradient(red, purple, blue);
   color: #fff;
   border: 2px solid white;
 }
@@ -315,23 +315,28 @@ header .navbar ul li a:hover {
   border: 2px solid white;
 }
 .social-icons a.github:hover {
-  background-color: #007775;
+  background-color: orange;
   box-shadow: #fff;
 }
-.social-icons a.twitter:hover {
-  background-color: #007775;
-  box-shadow: #fff;
+.social-icons a.behance:hover {
+  background-color: yellow;
+  box-shadow: #000;
+  color: #000;
 }
 .social-icons a.linkedin:hover {
-  background-color: #007775;
+  background-color: red;
   box-shadow: #fff;
 }
 .social-icons a.dev:hover {
-  background-color: #007775;
+  background-color: blue;
   box-shadow: #fff;
 }
 .social-icons a.instagram:hover {
-  background-color: #007775;
+  background-color: green;
+  box-shadow: #fff;
+}
+.social-icons a.grafikarsa:hover {
+  background-color: purple;
   box-shadow: #fff;
 }
 /* social icons end */
@@ -453,9 +458,9 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: white;
-  color: #007775;
-  border: 2px solid #007775;
+  background: linear-gradient(red, purple, blue);
+  color: white;
+  border: 2px solid white;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -522,9 +527,9 @@ header .navbar ul li a:hover {
 }
 .skills .container .bar:hover {
   box-shadow: 0 8px 10px #007775 !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
-  border: 2px solid white;
-  color: white;
+  background: linear-gradient(red, purple, blue);
+  border: 2px solid #ffffff;
+  color: #ffffff;
 }
 .skills .container .bar .info {
   display: flex;
@@ -779,7 +784,9 @@ header .navbar ul li a:hover {
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover {
-  background: #202020;
+  background: linear-gradient(red, purple, blue);
+  color: #fff;
+  border: #fff;
 }
 .work .viewall {
   display: flex;
